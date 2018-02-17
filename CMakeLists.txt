@@ -15,8 +15,6 @@ include (CheckIncludeFile)
 include (cmake/cpu.cmake)
 
 set(SOURCES
-    src/api/Api.cpp
-    src/api/ApiState.cpp
     src/api/NetworkState.cpp
     src/App.cpp
     src/net/Client.cpp
